@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 44.46614583333333%;
+
+}
+
+body {
+    background-color: #fff;
+
+}
+
+.container {
+    width: 151.5rem;
+    margin: 0 auto;
+}
+
+.container_fluid {
+    width: 100%;
+}

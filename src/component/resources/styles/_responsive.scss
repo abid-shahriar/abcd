@@ -1,0 +1,874 @@
+@media only screen and (max-width: 1100px) {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+
+
+    // Header start here
+
+    #header_section {
+        width: 100%;
+
+        .main {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+
+
+            .one {
+                width: 100%;
+
+                h1 {
+
+                    font-size: 9rem;
+                    line-height: 11.7rem;
+                    margin-bottom: 2.5rem;
+                }
+            }
+
+            .two {
+                width: 100%;
+                grid-column: 1 / span 2;
+                grid-row: 2;
+                display: flex;
+                justify-content: flex-end;
+                margin-bottom: 5rem;
+
+
+                img {
+                    width: 100%;
+
+                }
+            }
+
+            .three {
+
+                width: 100%;
+                grid-column: 1 / span 2;
+                grid-row: 4 / span 1;
+
+                p {
+                    width: 100%;
+                    font-family: A-book;
+                    font-size: 2.3rem;
+                    line-height: 4.6rem;
+
+
+                }
+
+
+
+
+
+            }
+
+            .four {
+                grid-column: 1 / span 2;
+                grid-row: 5 / span 1;
+
+                a {
+                    text-decoration: none;
+
+                    .enroll-btn {
+
+                        font-size: 3rem;
+                        padding: 2.7rem 5.7rem;
+
+                    }
+                }
+            }
+        }
+    }
+
+    // Header end here
+
+
+
+    // About us start here
+
+
+
+
+
+
+
+
+    // About us end here
+
+
+    
+
+    // About tutor start
+
+
+    #tutor_section {
+        .main{
+            .left{
+                width: 100%;
+            }
+            .right{
+                width: 100%;
+            }
+        }
+    }
+
+
+
+
+    // About tutor end
+
+
+
+
+
+
+    // programm section start here
+
+
+    #ourProgrammsSection {
+        h2 {
+            font-family: A-medium;
+            font-size: 6rem;
+            color: #000000;
+            font-size: 6rem;
+            margin-bottom: 2.3rem;
+        }
+
+        p {
+            max-width: 63.5rem;
+            font-family: A-medium;
+            font-size: 2.4rem;
+            line-height: 3.7rem;
+            letter-spacing: 0.015em;
+            color: #4c4c4c;
+            margin-bottom: 6rem;
+        }
+
+        .bottom-area {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .box {
+                width: 32%;
+                padding: 4rem 2.5rem 4rem 2.5rem;
+                border-radius: 1.5rem;
+                -webkit-border-radius: 1.5rem;
+                -moz-border-radius: 1.5rem;
+                -ms-border-radius: 1.5rem;
+                -o-border-radius: 1.5rem;
+                border: 0.1rem solid rgba(76, 76, 76, 0.3);
+                transition: 0.2s;
+                -webkit-transition: 0.2s;
+                -moz-transition: 0.2s;
+                -ms-transition: 0.2s;
+                -o-transition: 0.2s;
+                cursor: pointer;
+                position: relative;
+                z-index: 9;
+
+                h4 {
+                    font-size: 3.5rem;
+                    margin: 3.5rem 0 3rem 0;
+                }
+
+                p {
+                    font-size: 2rem;
+                    line-height: 3.7rem;
+                    letter-spacing: 0.015em;
+                }
+
+
+                .round {
+                    height: 12rem;
+                    width: 12rem;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-size: 4rem;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+
+
+    // programm section end here
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    // Header start here
+
+    #header_section {
+        .main {
+            .three {
+                p {
+                    text-align: justify;
+                }
+            }
+        }
+    }
+
+    // Header end here
+
+
+    // About tutor start
+
+
+    #tutor_section {
+        .left{
+            width: 100%;
+        }
+        .right{
+            width: 100%;
+
+            .box{
+                min-height: 50rem ;
+                .front{
+                    .image{
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    // About tutor end
+
+
+
+    // About us start here
+
+
+
+
+
+
+    
+#about_us {
+    .main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'heading'
+            'pic'
+            'paragraph'
+        ;
+
+        h2 {
+            margin-top: 1rem;
+            margin-bottom: 5.5rem;
+            margin-left: 0;
+            text-align: center;
+            grid-area: heading;
+            color: rgba(0, 0, 0, 1);
+            font-size: 6rem;
+            font-family: A-medium;
+            line-height: 3.5rem;
+        }
+
+        img {
+            grid-area: pic;
+            width: 100%;
+            height: auto;
+            margin-bottom: 5rem;
+        }
+
+        p {
+            grid-area: paragraph;
+            font-family: A-book;
+            font-size: 2.5rem;
+            line-height: 5rem;
+            letter-spacing: 0.015em;
+            color: #000000;
+            margin-left: 0;
+        }
+    }
+}
+
+
+
+
+
+
+    // About us end here
+
+
+
+    // programm section start here
+
+
+    #ourProgrammsSection {
+        h2 {
+            font-family: A-medium;
+            font-size: 6rem;
+            color: #000000;
+            font-size: 6rem;
+            margin-bottom: 2.3rem;
+        }
+
+        p {
+            max-width: 63.5rem;
+            font-family: A-medium;
+            font-size: 2.4rem;
+            line-height: 3.7rem;
+            letter-spacing: 0.015em;
+            color: #4c4c4c;
+            margin-bottom: 6rem;
+        }
+
+        .bottom-area {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .box {
+                width: 48%;
+                margin-bottom: 3.5rem;
+                padding: 4rem 2.5rem 4rem 2.5rem;
+                background-color: #fff;
+                border-radius: 1.5rem;
+                -webkit-border-radius: 1.5rem;
+                -moz-border-radius: 1.5rem;
+                -ms-border-radius: 1.5rem;
+                -o-border-radius: 1.5rem;
+                border: 0.1rem solid rgba(76, 76, 76, 0.3);
+                transition: 0.2s;
+                -webkit-transition: 0.2s;
+                -moz-transition: 0.2s;
+                -ms-transition: 0.2s;
+                -o-transition: 0.2s;
+                cursor: pointer;
+                position: relative;
+                z-index: 9;
+
+                h4 {
+                    font-family: A-medium;
+                    color: #262626;
+                    font-size: 3.5rem;
+                    margin: 3.5rem 0 3rem 0;
+                }
+
+                p {
+                    font-family: A-book;
+                    font-size: 2rem;
+                    line-height: 3.7rem;
+                    color: rgba(76, 76, 76, 1);
+                    letter-spacing: 0.015em;
+                }
+
+
+                .round {
+                    height: 12rem;
+                    width: 12rem;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-family: A-medium;
+                        font-size: 4rem;
+                    }
+                }
+
+            }
+
+            .box:hover {
+                box-shadow: 1.3rem 6rem 12rem rgba(0, 0, 0, 0.15);
+                border: 0.1rem solid rgba(76, 76, 76, 0);
+
+            }
+        }
+    }
+
+
+
+    // programm section end here
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-device-width: 576px) {
+
+    // Header start here
+    #header_section {
+        .main {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100%;
+            
+            .one {
+                width: 100%;
+                
+                h1 {
+                    text-align: center;
+                    font-size: 6rem;
+                    line-height: 7rem;
+                    margin-bottom: 5rem;
+                    
+                    br {
+                        display: none;
+                    }
+                }
+            }
+            
+            .four {
+                a {
+                    display: flex;
+                    justify-content: center;
+                    
+                    .enroll-btn {
+                        font-size: 2.5rem;
+                        padding: 2rem 0;
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+    // Header end here
+
+
+
+    
+    // About tutor start
+
+
+    #tutor_section {
+        .main{
+            .left{
+                width: 100%;
+                h2{
+                    text-align: center;
+                }
+                p{
+                    margin-bottom: 5rem;
+                }
+            }
+            .right{
+                width: 100%;
+                .box{
+                    width: 100%;
+                    
+                    margin-bottom: 5rem;
+                    .front{
+                        min-width: 35rem;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+    // About tutor end
+
+
+    
+    // about us start here
+
+
+        
+#about_us {
+    .main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'heading'
+            'pic'
+            'paragraph'
+        ;
+
+        h2 {
+            margin-top: 1rem;
+            margin-bottom: 5.5rem;
+            margin-left: 0;
+            text-align: center;
+            grid-area: heading;
+            color: rgba(0, 0, 0, 1);
+            font-size: 4.5rem;
+            font-family: A-medium;
+            line-height: 3.5rem;
+        }
+
+        img {
+            grid-area: pic;
+            width: 100%;
+            height: auto;
+            margin-bottom: 5rem;
+        }
+
+        p {
+            grid-area: paragraph;
+            font-family: A-book;
+            font-size: 2.5rem;
+            line-height: 5rem;
+            letter-spacing: 0.015em;
+            color: #000000;
+            margin-left: 0;
+        }
+    }
+}
+
+
+
+
+    // about us end here
+    
+    
+    // programm section start here
+    
+    
+    #ourProgrammsSection {
+        h2 {
+            text-align: center;
+            font-size: 6rem;
+            font-size: 6rem;
+            margin-bottom: 2.3rem;
+        }
+
+        p {
+            text-align: center;
+            max-width: 63.5rem;
+            font-size: 2.4rem;
+            line-height: 3.7rem;
+            letter-spacing: 0.015em;
+            margin-bottom: 6rem;
+        }
+
+        .bottom-area {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .box {
+                width: 100%;
+                margin-bottom: 3.5rem;
+                padding: 4rem 2.5rem 4rem 2.5rem;
+                border-radius: 1.5rem;
+                -webkit-border-radius: 1.5rem;
+                -moz-border-radius: 1.5rem;
+                -ms-border-radius: 1.5rem;
+                -o-border-radius: 1.5rem;
+                transition: 0.2s;
+                -webkit-transition: 0.2s;
+                -moz-transition: 0.2s;
+                -ms-transition: 0.2s;
+                -o-transition: 0.2s;
+
+                h4 {
+                    text-align: center;
+                    font-size: 3.5rem;
+                    margin: 3.5rem 0 3rem 0;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 3rem;
+                    line-height: 3.7rem;
+                    letter-spacing: 0.015em;
+                    margin-bottom: 3rem;
+                }
+
+
+                .round {
+                    margin: 0 auto;
+                    height: 12rem;
+                    width: 12rem;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-size: 4rem;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+
+
+    // programm section end here
+
+
+
+
+
+
+
+
+}
+
+
+// Header end here
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 375px) {
+    #header_section {
+        .main {
+
+
+
+            .one {
+
+
+                h1 {
+
+                    font-size: 4.5rem;
+                    line-height: 5.5rem;
+                    margin-bottom: 5rem;
+
+                    br {
+                        display: none;
+                    }
+                }
+            }
+
+
+            .four {
+
+                a {
+                    display: flex;
+                    justify-content: center;
+
+
+                    .enroll-btn {
+
+                        font-size: 2.5rem;
+                        padding: 2rem 0;
+                        width: 80%;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    // about us start here
+
+
+            
+#about_us {
+    .main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-areas:
+            'heading'
+            'pic'
+            'paragraph'
+        ;
+
+        h2 {
+            margin-top: 1rem;
+            margin-bottom: 5.5rem;
+            margin-left: 0;
+            text-align: center;
+            grid-area: heading;
+            color: rgba(0, 0, 0, 1);
+            font-size: 4rem;
+            font-family: A-medium;
+            line-height: 3.5rem;
+        }
+
+        img {
+            grid-area: pic;
+            width: 100%;
+            height: auto;
+            margin-bottom: 5rem;
+        }
+
+        p {
+            grid-area: paragraph;
+            font-family: A-book;
+            font-size: 2.5rem;
+            line-height: 5rem;
+            letter-spacing: 0.015em;
+            color: #000000;
+            margin-left: 0;
+        }
+    }
+}
+
+
+
+
+
+    // about us end here
+
+
+
+
+
+    // programm section start here
+
+
+    #ourProgrammsSection {
+
+        h2 {
+            text-align: center;
+            font-size: 6rem;
+            font-size: 6rem;
+            margin-bottom: 2.3rem;
+        }
+
+        p {
+            text-align: center;
+            max-width: 63.5rem;
+            font-size: 2.4rem;
+            line-height: 3.7rem;
+            letter-spacing: 0.015em;
+            margin-bottom: 6rem;
+        }
+
+        .bottom-area {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .box {
+                width: 100%;
+                margin-bottom: 2rem;
+                padding: 4rem 2.5rem 4rem 2.5rem;
+                border-radius: 1.5rem;
+                -webkit-border-radius: 1.5rem;
+                -moz-border-radius: 1.5rem;
+                -ms-border-radius: 1.5rem;
+                -o-border-radius: 1.5rem;
+                border: 0.1rem solid rgba(76, 76, 76, 0.3);
+                transition: 0.2s;
+                -webkit-transition: 0.2s;
+                -moz-transition: 0.2s;
+                -ms-transition: 0.2s;
+                -o-transition: 0.2s;
+                cursor: pointer;
+
+                h4 {
+                    text-align: center;
+                    font-size: 3.5rem;
+                    margin: 3.5rem 0 3rem 0;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 3rem;
+                    line-height: 3.7rem;
+                    letter-spacing: 0.015em;
+                    margin-bottom: 3rem;
+                }
+
+
+                .round {
+                    margin: 0 auto;
+                    height: 12rem;
+                    width: 12rem;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    span {
+                        font-size: 4rem;
+                    }
+                }
+
+            }
+
+
+        }
+    }
+
+
+
+    // programm section end here
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
